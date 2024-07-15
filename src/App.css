@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin: 5px 0;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 10px;
+}
+
+form button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  border: solid 1px black;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: rgb(217, 217, 217);
+}
+
+tbody tr {
+  border-bottom: 1px solid black;
+}
+
+td, th {
+  padding: 8px;
+  text-align: left;
+}
+
